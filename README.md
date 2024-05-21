@@ -16,6 +16,7 @@ First, create a new Conda virtual environment specifically for this project. Thi
 
 ```bash
 conda create -n llmapp python=3.10 -y
+```
 
 #### Step 2: Activate the Virtual Environment
 
@@ -23,13 +24,14 @@ Activate your new virtual environment to start working with it.
 
 ```bash
 conda activate llmapp
-
+```
 #### Step 3: Install Required Dependencies
 
 After activating the environment, you need to install the required dependencies. This project uses several Python packages, which are listed in the `requirements.txt` file. Install them using:
 
 ```bash
 pip install -r requirements.txt
+```
 
 #### Step 4: Additional Development Dependencies
 
@@ -37,6 +39,7 @@ For development purposes, you might need additional packages listed in `requirem
 
 ```bash
 pip install -r requirements_dev.txt
+```
 
 #### Step 5: Initial Setup Script
 
@@ -44,6 +47,7 @@ Run the initial setup script to configure the environment properly:
 
 ```bash
 bash init_setup.sh
+```
 
 # Project Structure
 
@@ -88,12 +92,13 @@ Here is an overview of the project's directory structure:
 - `setup.py`: Script for setting up the package.
 - `setup.cfg`: Configuration file for setup tools.
 
-## Running the Project
+# Running the Project
 
 Once you have set up the environment and installed all dependencies, you can start running the project. Typically, you will start by running the training pipeline:
 
 ```bash
 python src/pipeline/training_pipeline.py
+```
 
 And then use the prediction pipeline for making predictions:
 
@@ -101,11 +106,11 @@ And then use the prediction pipeline for making predictions:
 python src/pipeline/prediction_pipeline.py
 ```
 
-## Contributing
+# Contributing
 We welcome contributions! Please read our CONTRIBUTING.md to learn how you can help improve this project.
 
-## License
+# License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contact
+# Contact
 For any questions or suggestions, feel free to open an issue or contact the project maintainers.
