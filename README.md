@@ -53,6 +53,29 @@ bash init_setup.sh
 
 Here is an overview of the project's directory structure:
 
+.
+├── src
+│   ├── pipeline
+│       ├── __init__.py
+│       ├── training_pipeline.py
+│       └── prediction_pipeline.py
+│   ├── utils
+│       ├── __init__.py
+│       └── utils.py
+│   ├── logger
+│       └── logging.py
+│   └── exception
+│       └── exception.py
+├── tests
+│   ├── unit
+│       └── __init__.py
+│   └── integration
+│       └── __init__.py
+├── init_setup.sh
+├── requirements.txt
+├── requirements_dev.txt
+├── setup.py
+└── setup.cfg
 
 #### Key Files and Directories
 
